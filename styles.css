@@ -1,0 +1,71 @@
+*, 
+* ::before,
+* ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    min-width: 1440px;
+}
+
+main {
+    height: calc(100vh - 12px);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 497px;
+    width: 320px;
+    padding: 16px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.qr-code {
+    margin-bottom: 26px;
+}
+
+.qr-code img {
+    display: block;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.heading {
+    font-size: 22px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    padding:  0 calc(34px - 16px);
+    margin-bottom: 21px;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    padding: 0 calc(37px - 16px) calc(44px - 16px);
+}
+
+.attribution {
+    position: absolute;
+    bottom: 1;
+    left: 50%;
+    transform: translateX(-50%);
+}
